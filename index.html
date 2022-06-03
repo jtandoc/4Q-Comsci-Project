@@ -9,63 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@400;700&family=Pinyon+Script&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/cd38151bf0.js" crossorigin="anonymous"></script>
-        <style>
-            body{
-                font-family: 'Josefin Sans', sans-serif;
-            }
-            #placeorder{
-                margin-bottom: 7%;
-            }
-            .category-title{
-                padding-top: 2%;
-                font-family: 'Berkshire Swash', cursive;
-            }
-            #cat1, #cat2, #cat3, #cat4{
-                margin-bottom: 7%;
-            }
-            a, a:visited{
-                text-decoration: none;
-                color: black;
-                padding: 1%;
-            }
-            a:hover, i:hover{
-                color: rgb(114, 114, 114);
-                cursor: pointer;
-            }
-            .left{
-                float: left;
-            }
-            .right{
-                float: right;
-            }
-            #aboutus{
-                font-size:large;
-                padding-top: 2%;
-            }
-            #title{
-                font-family: 'Pinyon Script', cursive;
-                padding-top: 1%;
-                padding-left: 1%;
-            }
-            .wtitle{
-                overflow: hidden; 
-                border-bottom: 1px solid black;
-            }
-            #left-content{
-                display: none;
-            }
-            button.cart{
-                border: 0;
-                background-color: white;
-            }
-            form{
-                margin-top: 10%;
-            }
-            .remove:hover{
-                text-decoration: underline;
-                cursor: pointer;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
         <script>
             var slist=[];
             var total = 0;
@@ -129,14 +73,14 @@
                 slist.splice(x, 1);
                 displayList();
             }
-        </script> 
+        </script>
     </head>
     <body>
         <div class="container-fluid">
             <div style="position: sticky; width: 98.5%; padding: inherit; top: 0; z-index: 99; background-color: white;">
                 <div class="wtitle">
                     <h1 class="left" id="title">Divatrim</h1>
-                    <a href="" class="right" id="aboutus">About Us</a>
+                    <a href="aboutus.html" class="right" id="aboutus">About Us</a>
                 </div>
                 <div style="text-align: center; display: flex; justify-content: center; position: relative;">
                     <a href="#cat1">TOPS</a>
@@ -185,172 +129,172 @@
                 </div>
             </div>
         </div>
+        <script>
+            var shop = [];
+                var product={
+                    name: "Half Plaid Pattern Buttoned Crop Top",
+                    price: 568.00,
+                    img: "https://i.pinimg.com/564x/76/e5/a9/76e5a91f14fd3db85c423bc9b251b8b1.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Patchwork Pattern Monochromatic Colored Shirt",
+                    price: 250.00,
+                    img: "https://i.pinimg.com/564x/7e/1e/34/7e1e34469bb48d4f97d7f5d99c9e425d.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Leopard Print Button Blouse Shirt",
+                    price: 295.00,
+                    img: "https://i.pinimg.com/564x/08/94/df/0894df28eca0e35ef80644ea3fa2adc3.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Brown Heart Knitted Buttoned Sweat Shirt",
+                    price: 370.00,
+                    img: "https://i.pinimg.com/564x/04/d0/b3/04d0b32109f5375a5c9e6ed5196cabe7.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Letter Print Patchwork Collar Jacket",
+                    price: 420.00,
+                    img: "https://i.pinimg.com/564x/77/b9/0b/77b90b92437135a5821ce2e012e7fecd.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Blue Tie Die Sweater Shirt",
+                    price: 345.00,
+                    img: "https://i.pinimg.com/564x/d8/f7/08/d8f70823d3caabdabb5914976cbc1892.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "High Waist Flap Pocket BF Jeans",
+                    price: 450.00,
+                    img: "https://i.pinimg.com/564x/0e/5a/f0/0e5af0e21e3b05b4e373440a446a15b7.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Light Wash Flat Pocket Men Jeans",
+                    price: 444.00,
+                    img: "https://i.pinimg.com/564x/1b/63/ab/1b63ab2ff589da98b594695f75d14159.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Grunge Black Fade High Waist Jeans",
+                    price: 599.00,
+                    img: "https://i.pinimg.com/564x/dc/1b/6e/dc1b6e31a47410f1f641aec632d23a21.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Men Ripped Black Jeans Grunge",
+                    price: 625.00,
+                    img: "https://i.pinimg.com/736x/a1/a4/54/a1a454ba39e962c562f3fac8ddbfeee9.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "High Waist Light Wash Mom Jeans",
+                    price: 675.00,
+                    img: "https://i.pinimg.com/564x/1c/cc/98/1ccc987271a876599f5a3e69a5137d5d.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Men Khaki Flat Shorts",
+                    price: 550.00,
+                    img: "https://i.pinimg.com/564x/87/64/db/8764dbb8cad4a05fd2b48ee3beb3472e.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "High Waist Button Detail Wide Shorts",
+                    price: 610.00,
+                    img: "https://img.ltwebstatic.com/images3_pi/2021/12/30/1640830836c06fdd49122f1d8a186a52c0656aee69_thumbnail_600x.webp"
+                };
+                shop.push(product);
+                var product={
+                    name: "Men Slant Khaki Pocket Shorts",
+                    price: 500.00,
+                    img: "https://img.ltwebstatic.com/images3_pi/2022/01/14/1642126420d87958dadec480696abfa709c490e3cb_thumbnail_600x.webp"
+                };
+                shop.push(product);
+                var product={
+                    name: "Frenchy Paperbag Waist Pocket Shorts",
+                    price: 550.00,
+                    img: "https://img.ltwebstatic.com/images3_pi/2022/05/05/1651740085aa512aac0744e3dbcdf8a7c0ef64b75d_thumbnail_600x.webp"
+                };
+                shop.push(product);
+                var product={
+                    name: "Beige Linen Men Plain Pocket Shorts",
+                    price: 475.00,
+                    img: "https://i.pinimg.com/564x/c8/fe/c0/c8fec0e77356e237e3a96d05730fd049.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Zipper FLy Cuffed Hem Shorts",
+                    price: 480.00,
+                    img: "https://img.ltwebstatic.com/images3_pi/2021/11/06/1636174511583112a23c1c54b3cfee598aaf091d8d_thumbnail_600x.webp"
+                };
+                shop.push(product);
+                var product={
+                    name: "Men Plaid Pocket Shorts",
+                    price: 566.00,
+                    img: "https://img.ltwebstatic.com/images3_pi/2022/01/20/164267197077701cc7df635a6e34856d2715158913_thumbnail_600x.webp"
+                };
+                shop.push(product);
+                var product={
+                    name: "Blue Ribbon Sleeveless Flowy Dress",
+                    price: 460.00,
+                    img: "https://i.pinimg.com/564x/ba/f1/e0/baf1e051c8030a73570e5468a8203a01.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Sleeveless Mint Knitted Dress",
+                    price: 465.00,
+                    img: "https://i.pinimg.com/736x/bf/b3/6f/bfb36fccbffc18527099e2ea93974fef.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Green Cottage Core Plaid Dress",
+                    price: 500.00,
+                    img: "https://i.pinimg.com/564x/ec/02/a1/ec02a14abbb7a6cc7dfed6655bd2dc40.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Two Piece Ribbon Pattern Flowy Dress",
+                    price: 575.00,
+                    img: "https://i.pinimg.com/564x/a3/55/ae/a355aed56e6adc6ba4f19d41e0cf33b0.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Fade Green Tight Sleeveless Dress",
+                    price: 480.00,
+                    img: "https://i.pinimg.com/564x/d0/2f/54/d02f54c5509395c36e93ec0731813daa.jpg"
+                };
+                shop.push(product);
+                var product={
+                    name: "Black Long Shirt Dress",
+                    price: 600.00,
+                    img: "https://i.pinimg.com/564x/f0/a8/aa/f0a8aa5e71e2958b04f81ff299d5a54f.jpg"
+                };
+                shop.push(product);
+    
+                function displayShop(){
+                    document.getElementById('cat1').innerHTML = "";
+                    for (i=0; i<6; i++){
+                        document.getElementById('cat1').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
+                    }
+                    document.getElementById('cat2').innerHTML = "";
+                    for (i=6; i<12; i++){
+                        document.getElementById('cat2').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
+                    }
+                    document.getElementById('cat3').innerHTML = "";
+                    for (i=12; i<18; i++){
+                        document.getElementById('cat3').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
+                    }
+                    document.getElementById('cat4').innerHTML = "";
+                    for (i=18; i<24; i++){
+                        document.getElementById('cat4').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
+                    }
+                };
+            displayShop();
+        </script>
     </body>
-    <script>
-        var shop = [];
-            var product={
-                name: "Half Plaid Pattern Buttoned Crop Top",
-                price: 568.00,
-                img: "https://i.pinimg.com/564x/76/e5/a9/76e5a91f14fd3db85c423bc9b251b8b1.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Patchwork Pattern Monochromatic Colored Shirt",
-                price: 250.00,
-                img: "https://i.pinimg.com/564x/7e/1e/34/7e1e34469bb48d4f97d7f5d99c9e425d.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Leopard Print Button Blouse Shirt",
-                price: 295.00,
-                img: "https://i.pinimg.com/564x/08/94/df/0894df28eca0e35ef80644ea3fa2adc3.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Brown Heart Knitted Buttoned Sweat Shirt",
-                price: 370.00,
-                img: "https://i.pinimg.com/564x/04/d0/b3/04d0b32109f5375a5c9e6ed5196cabe7.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Letter Print Patchwork Collar Jacket",
-                price: 420.00,
-                img: "https://i.pinimg.com/564x/77/b9/0b/77b90b92437135a5821ce2e012e7fecd.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Blue Tie Die Sweater Shirt",
-                price: 345.00,
-                img: "https://i.pinimg.com/564x/d8/f7/08/d8f70823d3caabdabb5914976cbc1892.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "High Waist Flap Pocket BF Jeans",
-                price: 450.00,
-                img: "https://i.pinimg.com/564x/0e/5a/f0/0e5af0e21e3b05b4e373440a446a15b7.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Light Wash Flat Pocket Men Jeans",
-                price: 444.00,
-                img: "https://i.pinimg.com/564x/1b/63/ab/1b63ab2ff589da98b594695f75d14159.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Grunge Black Fade High Waist Jeans",
-                price: 599.00,
-                img: "https://i.pinimg.com/564x/dc/1b/6e/dc1b6e31a47410f1f641aec632d23a21.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Men Ripped Black Jeans Grunge",
-                price: 625.00,
-                img: "https://i.pinimg.com/736x/a1/a4/54/a1a454ba39e962c562f3fac8ddbfeee9.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "High Waist Light Wash Mom Jeans",
-                price: 675.00,
-                img: "https://i.pinimg.com/564x/1c/cc/98/1ccc987271a876599f5a3e69a5137d5d.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Men Khaki Flat Shorts",
-                price: 550.00,
-                img: "https://i.pinimg.com/564x/87/64/db/8764dbb8cad4a05fd2b48ee3beb3472e.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "High Waist Button Detail Wide Shorts",
-                price: 610.00,
-                img: "https://img.ltwebstatic.com/images3_pi/2021/12/30/1640830836c06fdd49122f1d8a186a52c0656aee69_thumbnail_600x.webp"
-            };
-            shop.push(product);
-            var product={
-                name: "Men Slant Khaki Pocket Shorts",
-                price: 500.00,
-                img: "https://img.ltwebstatic.com/images3_pi/2022/01/14/1642126420d87958dadec480696abfa709c490e3cb_thumbnail_600x.webp"
-            };
-            shop.push(product);
-            var product={
-                name: "Frenchy Paperbag Waist Pocket Shorts",
-                price: 550.00,
-                img: "https://img.ltwebstatic.com/images3_pi/2022/05/05/1651740085aa512aac0744e3dbcdf8a7c0ef64b75d_thumbnail_600x.webp"
-            };
-            shop.push(product);
-            var product={
-                name: "Beige Linen Men Plain Pocket Shorts",
-                price: 475.00,
-                img: "https://i.pinimg.com/564x/c8/fe/c0/c8fec0e77356e237e3a96d05730fd049.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Zipper FLy Cuffed Hem Shorts",
-                price: 480.00,
-                img: "https://img.ltwebstatic.com/images3_pi/2021/11/06/1636174511583112a23c1c54b3cfee598aaf091d8d_thumbnail_600x.webp"
-            };
-            shop.push(product);
-            var product={
-                name: "Men Plaid Pocket Shorts",
-                price: 566.00,
-                img: "https://img.ltwebstatic.com/images3_pi/2022/01/20/164267197077701cc7df635a6e34856d2715158913_thumbnail_600x.webp"
-            };
-            shop.push(product);
-            var product={
-                name: "Blue Ribbon Sleeveless Flowy Dress",
-                price: 460.00,
-                img: "https://i.pinimg.com/564x/ba/f1/e0/baf1e051c8030a73570e5468a8203a01.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Sleeveless Mint Knitted Dress",
-                price: 465.00,
-                img: "https://i.pinimg.com/736x/bf/b3/6f/bfb36fccbffc18527099e2ea93974fef.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Green Cottage Core Plaid Dress",
-                price: 500.00,
-                img: "https://i.pinimg.com/564x/ec/02/a1/ec02a14abbb7a6cc7dfed6655bd2dc40.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Two Piece Ribbon Pattern Flowy Dress",
-                price: 575.00,
-                img: "https://i.pinimg.com/564x/a3/55/ae/a355aed56e6adc6ba4f19d41e0cf33b0.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Fade Green Tight Sleeveless Dress",
-                price: 480.00,
-                img: "https://i.pinimg.com/564x/d0/2f/54/d02f54c5509395c36e93ec0731813daa.jpg"
-            };
-            shop.push(product);
-            var product={
-                name: "Black Long Shirt Dress",
-                price: 600.00,
-                img: "https://i.pinimg.com/564x/f0/a8/aa/f0a8aa5e71e2958b04f81ff299d5a54f.jpg"
-            };
-            shop.push(product);
-
-            function displayShop(){
-                document.getElementById('cat1').innerHTML = "";
-                for (i=0; i<6; i++){
-                    document.getElementById('cat1').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
-                }
-                document.getElementById('cat2').innerHTML = "";
-                for (i=6; i<12; i++){
-                    document.getElementById('cat2').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
-                }
-                document.getElementById('cat3').innerHTML = "";
-                for (i=12; i<18; i++){
-                    document.getElementById('cat3').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
-                }
-                document.getElementById('cat4').innerHTML = "";
-                for (i=18; i<24; i++){
-                    document.getElementById('cat4').innerHTML += '<div class="col-sm"><div class="card h-100"><img src="' + shop[i].img + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + shop[i].name + '</h5><p class="card-text">Php &nbsp;' + shop[i].price + '</p></div><div class="card-footer"><button class="btn btn-dark" onclick="addtoCart('+ i + ');">Add to Cart</button></div></div></div>';
-                }
-            };
-        displayShop();
-    </script>
 </html>
