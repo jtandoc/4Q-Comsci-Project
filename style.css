@@ -1,0 +1,84 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#placeorder{
+    margin-bottom: 7%;
+}
+.category-title{
+    padding-top: 2%;
+    font-family: 'Berkshire Swash', cursive;
+}
+#cat1, #cat2, #cat3, #cat4{
+    margin-bottom: 7%;
+}
+a, a:visited{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+a:hover, i:hover{
+    color: rgb(114, 114, 114);
+    cursor: pointer;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#aboutus{
+    font-size:large;
+    padding-top: 2%;
+}
+#title{
+    font-family: 'Pinyon Script', cursive;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.wtitle{
+    overflow: hidden; 
+    border-bottom: 1px solid black;
+}
+#atitle{
+    padding-top: 2%;
+    text-align: center;
+}
+#left-content{
+    display: none;
+}
+button.cart{
+    border: 0;
+    background-color: white;
+}
+form{
+    margin-top: 10%;
+}
+.remove:hover, #shopNow:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sameLine{
+    display: inline-block;
+}
+.aboutTitle, h3{
+    margin: 0;
+}
+mark{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+#shopNow, .description{
+    position:absolute;
+    bottom: 5%;
+    right: 5%;
+}
+.desc{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30%;
+    line-height: 1%;
+}
+.description{
+    left: 1%;
+    right: auto;
+}
