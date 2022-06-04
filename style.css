@@ -67,18 +67,9 @@ mark{
     background-color: rgb(24, 24, 24);
     color: white;
 }
-#shopNow, .description{
-    position:absolute;
-    bottom: 5%;
-    right: 5%;
-}
 .desc{
     margin: 0;
     padding: 0;
     padding-bottom: 30%;
     line-height: 1%;
-}
-.description{
-    left: 1%;
-    right: auto;
 }
